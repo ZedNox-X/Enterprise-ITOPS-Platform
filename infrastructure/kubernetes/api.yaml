@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: itops-api
+  namespace: enterprise-itops
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: itops-api
+  template:
+    metadata:
+      labels:
+        app: itops-api
+    spec:
+      containers:
+        - name: api
+          image: enterprise-itops-platform:latest
+          ports:
+            - containerPort: 8000
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: itops-api
+  namespace: enterprise-itops
+spec:
+  selector:
+    app: itops-api
+  ports:
+    - port: 80
+      targetPort: 8000
