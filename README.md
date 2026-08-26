@@ -1,4 +1,4 @@
-# Enterprise IT Operations Automation Platform
+# Enterprise IT Operations Automation Platform.
 
 A production-oriented Python reference architecture for enterprise IT operations.
 
