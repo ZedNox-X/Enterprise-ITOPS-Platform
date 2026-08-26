@@ -2,7 +2,7 @@
 
 A production-oriented Python reference architecture for enterprise IT operations.
 
-The platform demonstrates:
+The platform demonstrates.
 
 - FastAPI REST APIs
 - PostgreSQL + SQLAlchemy 2
