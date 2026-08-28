@@ -1,7 +1,6 @@
 # Enterprise IT Operations Automation Platform.
 
 A production-oriented Python reference architecture for enterprise IT operations.
-
 The platform demonstrates.
 
 - FastAPI REST APIs
