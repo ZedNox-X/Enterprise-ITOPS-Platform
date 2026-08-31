@@ -21,6 +21,7 @@ The platform demonstrates.
 - Clean architecture / domain-driven service boundaries
 
 > This is a portfolio/reference implementation. Device remediation is intentionally simulated and does not execute destructive commands on real machines.
+<img width="1536" height="1024" alt="Enterprise-ITOPS-Platform" src="https://github.com/user-attachments/assets/4ec329a9-f684-4f13-b1bc-ef22015a626d" />
 
 ## Architecture
 
