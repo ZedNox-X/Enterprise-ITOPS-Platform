@@ -190,3 +190,4 @@ The API is stateless and can scale horizontally. Workers scale independently bas
 ## License
 
 MIT
+Version 9.2.12
